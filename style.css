@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: url("assets/Bitcoin.bkg.jpg")
+  background: ("assets/Bitcoin.bkg.jpg")
   background-size: cover;
 }
   font-family: -apple-system, Inter, sans-serif;
