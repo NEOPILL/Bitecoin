@@ -2,15 +2,12 @@
 body {
   margin: 0;
   padding: 0;
-  background: background: url("assets/Bitecoin.bkg.jpg") no-repeat center center fixed;
+  background: url("assets/Bitecoin.bkg.jpg") no-repeat center center fixed;
   background-size: cover;
-}
-
   font-family: -apple-system, Inter, sans-serif;
   color: #d5d5d5;
   line-height: 1.6;
 }
-
 /* ---- LAYOUT UTILITY ---- */
 .inner {
   width: 92%;
@@ -18,14 +15,12 @@ body {
   margin: 0 auto;
   position: relative;
 }
-
 /* ---- HEADER ---- */
 .site-header {
   padding: 32px 0;
   position: relative;
   z-index: 10;
 }
-
 .logo-mark {
   display: flex;
   align-items: center;
@@ -34,40 +29,33 @@ body {
   top: 24px;
   left: 32px;
 }
-
 .logo-img {
   width: 64px;
   height: auto;
 }
-
 .wordmark {
   font-size: 2.2rem;
   font-weight: 700;
   color: #f4c851;
 }
-
 /* ---- HERO ---- */
 .hero {
   position: relative;
   padding: 180px 0 160px;
   overflow: hidden;
 }
-
 .hero-copy {
   max-width: 600px;
 }
-
 .hero h1 {
   font-size: 4rem;
   line-height: 1.1;
   margin: 0;
   color: #fff;
 }
-
 .hero .accent {
   color: #f4c851;
 }
-
 .hero-kicker {
   margin-bottom: 20px;
   text-transform: uppercase;
@@ -75,22 +63,18 @@ body {
   color: #aaa;
   font-size: 1rem;
 }
-
 .hero-lead {
   margin-top: 26px;
   font-size: 1.3rem;
   color: #c9c9c9;
 }
-
 .hero-statement p {
   margin-top: 18px;
 }
-
 .bold {
   font-weight: 700;
   color: #fff;
 }
-
 /* ---- MEDIA ---- */
 @media (max-width: 900px) {
   .logo-mark {
@@ -98,16 +82,13 @@ body {
     justify-content: center;
     margin-bottom: 30px;
   }
-
   .hero {
     padding: 120px 0;
   }
-
   .hero h1 {
     font-size: 2.6rem;
   }
 }
-
 /* ---- PARALLAX HERO BACKGROUND ---- */
 .hero-bg {
   background: url("assets/Bitecoin.PNG") center center no-repeat;
@@ -119,12 +100,10 @@ body {
   animation: heroParallax 14s ease-in-out infinite alternate;
   filter: drop-shadow(0px 0px 40px rgba(255, 210, 90, 0.25));
 }
-
 @keyframes heroParallax {
   0%   { transform: translateY(-20px) scale(1); }
   100% { transform: translateY(20px) scale(1.05); }
 }
-
 /* LABYRINTH HERO -------------------------------------- */
 .hero-labyrinth {
   position: relative;
@@ -133,7 +112,6 @@ body {
   align-items: center;
   overflow: hidden;
 }
-
 /* Background image */
 .hero-labyrinth .hero-bg {
   position: absolute;
@@ -142,7 +120,6 @@ body {
   filter: blur(8px) brightness(0.45);
   z-index: -2;
 }
-
 /* Vignette overlay */
 .hero-labyrinth::before {
   content: "";
@@ -154,7 +131,6 @@ body {
   );
   z-index: -1;
 }
-
 /* Bitecoin logo */
 .hero-logo {
   position: absolute;
@@ -163,33 +139,27 @@ body {
   width: 180px;
   opacity: 0.99;
 }
-
 /* Text block */
 .hero-text {
   max-width: 780px;
   color: #eee;
 }
-
 .hero-text h1 {
   font-size: 3.4rem;
   margin-bottom: 30px;
 }
-
 .hero-text .accent {
   color: #f4c851;
 }
-
 .hero-text p {
   font-size: 1.2rem;
   margin: 16px 0;
 }
-
 .hero-text .bold {
   margin-top: 28px;
   font-weight: 700;
   color: #fff;
 }
-
 .closer {
   margin-top: 36px;
   font-style: italic;
