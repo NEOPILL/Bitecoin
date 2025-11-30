@@ -1,4 +1,4 @@
-/* ---- GLOBAL ---- */
+/* ---- RESET ---- */
 body {
   margin: 0;
   padding: 0;
@@ -8,125 +8,95 @@ body {
   line-height: 1.6;
 }
 
+/* ---- LAYOUT UTILITY ---- */
+.inner {
+  width: 92%;
+  max-width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
 /* ---- HEADER ---- */
 .site-header {
-  background: transparent;
-  padding: 30px 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 32px 0;
 }
-/* layout */
-.site-header {
-  padding: 24px 0;
-}
-
-.header-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.wordmark {
-  font-size: 24px;
-  font-weight: 600;
-  color: #f7d87b; /* gold */
-}
-
-/* logo image */
-.logo-img {
-  width: 72px;
-  height: auto;
-  object-fit: contain;
-}
-
 
 .logo-mark {
-  position: absolute;
-  top: 30px;
-  right: 40px;
   display: flex;
   align-items: center;
   gap: 12px;
+  position: absolute; /* pins it top right */
+  top: 24px;
+  right: 32px;
 }
 
 .logo-img {
-  width: 56px;
+  width: 64px;
   height: auto;
 }
 
 .wordmark {
-  font-size: 1.6rem;
-  font-weight: 600;
-  color: #f0c64f; /* gold */
-}
-
-.wordmark {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   font-weight: 700;
-  color: #f4c851;
-}
-
-/* ---- NAVIGATION ---- */
-.main-nav a {
-  margin: 0 20px;
-  text-decoration: none;
-  color: #f2f2f2;
-  font-weight: 500;
-  transition: 0.2s;
-}
-
-.main-nav a:hover {
-  color: #f4c851;
+  color: #f4c851; /* gold */
 }
 
 /* ---- HERO ---- */
 .hero {
-  padding: 140px 100px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  padding: 160px 0 120px;
+}
+
+.hero-copy {
+  max-width: 600px;
 }
 
 .hero h1 {
-  font-size: 3.5rem;
-  font-weight: 800;
-  color: #ffffff;
+  font-size: 4rem;
+  line-height: 1.1;
+  margin: 0;
+  color: #fff;
 }
 
-.hero span.accent {
+.hero .accent {
   color: #f4c851;
 }
 
-.hero p {
-  margin-top: 20px;
-  max-width: 500px;
-  font-size: 1.2rem;
+.hero-kicker {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #aaa;
+  font-size: 1rem;
+}
+
+.hero-lead {
+  margin-top: 26px;
+  font-size: 1.3rem;
   color: #c9c9c9;
 }
 
-/* ---- LOGO ---- */
-.hero-logo {
-  width: 420px;
-  margin-left: auto;
-  display: block;
+.hero-statement p {
+  margin-top: 18px;
 }
 
-/* ---- SECTION TITLES ---- */
-.section-title {
-  margin-top: 120px;
-  margin-bottom: 20px;
-  font-size: 2.4rem;
+.bold {
   font-weight: 700;
-  color: #f4c851;
+  color: #fff;
 }
 
-/* ---- FOOTER ---- */
-footer {
-  margin-top: 120px;
-  padding: 50px 50px;
-  border-top: 1px solid #222;
-  text-align: center;
-  color: #666;
-  font-size: 0.9rem;
+/* ---- MEDIA ---- */
+@media (max-width: 900px) {
+  .logo-mark {
+    position: static;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .hero {
+    padding: 100px 0;
+  }
+
+  .hero h1 {
+    font-size: 2.6rem;
+  }
 }
