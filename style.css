@@ -4,7 +4,6 @@ body {
   padding: 0;
   background: url("assets/Bitecoin.bkg.jpg") center center no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
   font-family: -apple-system, Inter, sans-serif;
   color: #d5d5d5;
