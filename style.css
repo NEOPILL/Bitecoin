@@ -16,6 +16,30 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+/* layout */
+.site-header {
+  padding: 24px 0;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wordmark {
+  font-size: 24px;
+  font-weight: 600;
+  color: #f7d87b; /* gold */
+}
+
+/* logo image */
+.logo-img {
+  width: 72px;
+  height: auto;
+  object-fit: contain;
+}
+
 
 .logo-mark {
   position: absolute;
