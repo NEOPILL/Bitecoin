@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #000;
+  background: background: url("assets/Bitecoin.bkg.jpg") center center no-repeat;
 
   font-family: -apple-system, Inter, sans-serif;
   color: #d5d5d5;
